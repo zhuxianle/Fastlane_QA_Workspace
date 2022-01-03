@@ -1,0 +1,9 @@
+C:\Python27\Lib\site-packages\Selenium2Library\keywords\__init__.py
+C:\Python27\Lib\site-packages\Selenium2Library\keywords\_browsermanagement.py
+C:\Python27\Lib\site-packages\Selenium2Library\keywords\_screenshot.py
+C:\Python27\Lib\site-packages\Selenium2Library\keywords\_element.py
+C:\Python27\Lib\site-packages\Selenium2Library\keywords\_selectelement.py
+C:\Python27\Lib\site-packages\Selenium2Library\keywords\_customkeyword.py
+C:\Python27\Lib\site-packages\Selenium2Library\keywords\_javascript.py
+
+C:\Python27\Lib\site-packages\Selenium2Library\locators\windowmanager.py

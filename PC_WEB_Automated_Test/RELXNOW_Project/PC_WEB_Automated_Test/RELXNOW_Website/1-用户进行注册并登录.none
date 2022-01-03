@@ -1,0 +1,8 @@
+*** Settings ***
+Library                 Selenium2Library
+
+*** Test Cases ***
+Case1_用户进行注册
+          Open Browser          https://relxnow.com/
+
+Case2_用户进行登录

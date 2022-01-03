@@ -1,0 +1,3 @@
+${time3}=	Evaluate	datetime.datetime.now().strftime('%H%M%S')
+${Player_Name}=	Set Variable	${Player_Name}${time3}
+Wait Until Element Is Visible	id=StoreName	

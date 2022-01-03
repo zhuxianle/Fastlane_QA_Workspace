@@ -1,0 +1,8 @@
+C:\Python27\Lib\site-packages\robot\utils\asserts.py
+
+C:\Python27\Lib\site-packages\robot\htmldata\rebot\common.css
+C:\Python27\Lib\site-packages\robot\htmldata\rebot\log.html
+C:\Python27\Lib\site-packages\robot\htmldata\rebot\report.html
+C:\Python27\Lib\site-packages\robot\htmldata\rebot\view.js
+
+C:\Python27\Lib\site-packages\Selenium2Library\__init__.py
