@@ -1,2 +1,4 @@
 *** Test Cases ***
 Case-全局变量
+    ${test}    Set Variable    1
+    log    ${test}
