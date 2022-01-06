@@ -15,6 +15,7 @@ ${Phone_Number}    13048864661    #设置手机号
 
 *** Test Cases ***
 Case_对个人资料进行编辑
+    [Tags]    Automated
     打开浏览器    ${Tokit_Recipes_NA_URL}    ${Browser_Type}
     Maximize Browser Window    #将浏览器最大化
     点击个人中心的Icon
