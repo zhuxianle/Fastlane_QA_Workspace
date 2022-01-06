@@ -1,12 +1,10 @@
 *** Settings ***
 Library           AutoItLibrary
-Resource          ../Common_Library.robot
 Library           Selenium2Library
-Resource          L3_Element_用户进行登录.robot
-Resource          L2_Components.robot
 Library           DatabaseLibrary
-Resource          L3_Element_用户进行注册.robot
-Resource          L3_Element_用户申请重置密码.robot
+Resource          ../Flow/Flow_用户进行注册.robot
+Resource          ../Flow/Flow_用户申请重置密码.robot
+Resource          ../Element/Element.robot
 
 *** Variables ***
 ${UserLogin_Name}    daisy@fstln.io    #用户登录邮箱
@@ -21,7 +19,6 @@ Case_用户进行注册
     [Setup]
     Open Browser    ${Tokit_Recipes_NA_URL}    ${Browser_Type}    #打开浏览器
     将浏览器最大化
-    #    校验是否为测试环境    ${Tokit_Recipes_NA_URL}    chunmi_    #打开浏览器
     点击个人中心的icon
     跳转至注册页面
     输入未注册账号进行注册    ${Register_Account_Suffixt}
@@ -38,18 +35,16 @@ Case_用户进行注册
     ...    AND    OperatingSystem.run    taskkill /F /IM WerFault.exe
 
 Case_用户进行登录
-    Open Browser    ${Tokit_Recipes_EU_URL}    #打开浏览器
+    Open Browser    ${Tokit_Recipes_NA_URL}    ${Browser_Type}    #打开浏览器
     将浏览器最大化
     点击个人中心的Icon
-    用户进行登录    ${UserLogin_Name}    ${userLogin_Password}
-    进入个人中心页面
-    加载菜单后点击个人中心    1
+    用户进行登录    ${UserLogin_Name}    ${UserLogin_Password}
     关闭浏览器
     [Teardown]    Run Keyword If    '${PREV TEST STATUS}'=='FAIL'    fail    Run Keywords    Import Library    OperatingSystem
     ...    AND    OperatingSystem.run    taskkill /F /IM WerFault.exe
 
 Case_用户申请重置密码
-    Open Browser    ${Tokit_Recipes_EU_URL}    #打开浏览器
+    Open Browser    ${Tokit_Recipes_NA_URL}    ${Browser_Type}    #打开浏览器
     将浏览器最大化
     点击个人中心的Icon
     跳转至重置密码页面
@@ -60,9 +55,9 @@ Case_用户申请重置密码
     [Teardown]    Run Keyword If    '${PREV TEST STATUS}'=='FAIL'    fail    Run Keywords    Import Library    OperatingSystem
     ...    AND    OperatingSystem.run    taskkill /F /IM WerFault.exe
 
-1-Case_数据库初始化
+Case_数据库初始化(Test)
     #先处理下数据库
-    DatabaseLibrary.Connect To Database Using Custom Params    pymysql    db='aws-test01',user='root',password='ng6brE9LqSrt0M4H8HUD',host='18.167.6.45',port=3306
+    DatabaseLibrary.Connect To Database Using Custom Params    pymysql    db='fstlnerp',user='root',password='ng6brE9LqSrt0M4H8HUD',host='18.167.6.45',port=3306
     ${query}=    DatabaseLibrary.Query    SELECT * FROM users
     log    ${query}
     Execute Sql String    SELECT * FROM users
