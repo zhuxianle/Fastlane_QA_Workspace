@@ -3,9 +3,9 @@ Library           Selenium2Library
 Library           AutoItLibrary
 
 *** Variables ***
-${Tokit_Recipes_NA_URL}    https://na.cooknjoy.tokitglobal.com/    # 纯米菜谱平台的NA站
-${Tokit_Recipes_EU_URL}    https://eu.cooknjoy.tokitglobal.com/    # 纯米菜谱平台的EU站
-${Browser_Type}    Firefox    #默认为火狐浏览器
+${Tokit_Recipes_NA_URL}    https://na.cooknjoy.tokitglobal.com/
+${Tokit_Recipes_EU_URL}    https://eu.cooknjoy.tokitglobal.com/
+${Browser_Type}    Firefox
 
 *** Keywords ***
 校验是否为测试环境
