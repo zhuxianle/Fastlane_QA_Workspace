@@ -4,15 +4,15 @@ Resource          ../Element/Element.robot
 
 *** Keywords ***
 点击编辑个人资料的按钮
-    ${Edit_Profile}    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//main[@id="root"]//div/div[1]/a    10
-    Run Keyword If    "${Edit_Profile}"=="True"    Click Element    xpath=//main[@id="root"]//div/div[1]/a
+    ${edit_profile}    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//main[@id="root"]//div/div[1]/a    10
+    Run Keyword If    "${edit_profile}"=="True"    Click Element    xpath=//main[@id="root"]//div/div[1]/a
     ...    ELSE    log    无法定位到“Edit profile”的元素的位置
 
 输入姓氏
-    Input Text    id=first-name    ${First_Name}
+    Input Text    id=first-name    ${first_Name}
 
 输入姓名
-    Input Text    id=last-name    ${Last_Name}
+    Input Text    id=last-name    ${last_Name}
 
 选择性别
     Click Element    id=gender-female

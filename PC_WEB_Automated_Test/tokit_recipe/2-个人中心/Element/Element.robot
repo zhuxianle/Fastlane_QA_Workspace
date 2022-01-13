@@ -2,8 +2,6 @@
 Library           Selenium2Library
 
 *** Variables ***
-${Tokit_Recipes_NA_URL}    https://na.cooknjoy.tokitglobal.com/
-${Browser_Type}    Firefox    #默认为火狐浏览器
 
 *** Keywords ***
 进入个人中心的个人信息页面
@@ -50,9 +48,9 @@ ${Browser_Type}    Firefox    #默认为火狐浏览器
     END
     Mouse Over    xpath=//div[@id="UserInfo"]/a/span
     Mouse Over    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
-    ${my_Collection}=    Get Text    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
-    ${my_Collection1}=    Set Variable    My Collection    #设置临时变量
-    Run Keyword If    '${my_Collection}'=="${my_Collection1}"    Mouse Over    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
+    ${my_collection}=    Get Text    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
+    ${my_collection1}=    Set Variable    My Collection    #设置临时变量
+    Run Keyword If    '${my_collection}'=="${my_collection1}"    Mouse Over    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
     Click Element    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span    #点击二级导航栏的"account"链接进行跳转
     Sleep    2
 

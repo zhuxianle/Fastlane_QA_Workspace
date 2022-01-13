@@ -4899,3 +4899,2208 @@ unwatchForTabs()@TargetList.jsm:70
 unwatchForTargets()@TargetList.jsm:37
 destructor()@TargetList.jsm:109
 close()@RemoteAgent.jsm:136
+1642054734249	geckodriver	INFO	Listening on 127.0.0.1:65186
+1642054737309	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65187" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileSw7hDI"
+1642054738347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileSw7hDI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65187/devtools/browser/93f3deae-24fa-4fdf-badb-c2ce838e8fed
+1642054741628	Marionette	INFO	Listening on port 65198
+1642054742062	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+[Parent 26816, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Child 25044, MediaDecoderStateMachine #2] WARNING: Decoder=199b7a11c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:366
+[Child 25044, MediaDecoderStateMachine #2] WARNING: Decoder=199b7a11c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3490
+!!! error running onStopped callback: TypeError: callback is not a function
+1642056729391	Marionette	INFO	Stopped listening on port 65198
+1642056729473	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+Stopped callback: TypeError: callback is not a function
+1642056500431	Marionette	INFO	Stopped listening on port 56663
+1642056500513	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642057224123	geckodriver	INFO	Listening on 127.0.0.1:59609
+1642057227205	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59610" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileutUf6u"
+1642057228069	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileutUf6u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59610/devtools/browser/d6751adc-8a2d-4446-b14c-af54624a2b7b
+1642057231661	Marionette	INFO	Listening on port 59620
+1642057231953	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642058023070	Marionette	INFO	Stopped listening on port 59620
+1642058023114	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+ng on port 65168
+1642057300187	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642058019052	Marionette	INFO	Stopped listening on port 65168
+1642058019095	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642058078918	geckodriver	INFO	Listening on 127.0.0.1:54822
+1642058081992	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54823" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilevq36nc"
+1642058083036	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilevq36nc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54823/devtools/browser/4f995c49-0bb8-4133-acff-fcc0491dbe1e
+1642058086560	Marionette	INFO	Listening on port 54833
+1642058086727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is not a function
+1642058327609	Marionette	INFO	Stopped listening on port 54833
+1642058327648	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+8-669051ced4b9
+1642058186784	Marionette	INFO	Listening on port 52179
+1642058187170	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642058477552	Marionette	INFO	Stopped listening on port 52179
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642058477586	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+LS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642058356435	Marionette	INFO	Stopped listening on port 60157
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642058356608	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642058363436	geckodriver	INFO	Listening on 127.0.0.1:57655
+1642058366469	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57656" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilegCRrck"
+1642058367153	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilegCRrck\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57656/devtools/browser/2dacd255-6e55-4495-87ab-3ac4204be1f6
+1642058370431	Marionette	INFO	Listening on port 57665
+1642058370602	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642058473675	Marionette	INFO	Stopped listening on port 57665
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642058473968	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642058526615	geckodriver	INFO	Listening on 127.0.0.1:63809
+1642058529673	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63810" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileGQ0udg"
+1642058530706	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileGQ0udg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63810/devtools/browser/f916a8b4-b1a3-4f5c-8884-e902bdff507c
+1642058533930	Marionette	INFO	Listening on port 63819
+1642058534419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642059414548	Marionette	INFO	Stopped listening on port 63819
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642059414600	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+on
+!!! error running onStopped callback: TypeError: callback is not a function
+1642059126544	Marionette	INFO	Stopped listening on port 54101
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642059126928	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642059127141	geckodriver	INFO	Listening on 127.0.0.1:56242
+1642059130179	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56244" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileW0JlHj"
+1642059130906	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileW0JlHj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56244/devtools/browser/1c1e24c6-6f85-430d-b7a6-44c478128e27
+1642059134076	Marionette	INFO	Listening on port 56254
+1642059134342	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642059159062	Marionette	INFO	Stopped listening on port 56254
+1642059159381	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642059159616	geckodriver	INFO	Listening on 127.0.0.1:58131
+1642059162652	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58132" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilea3nW1v"
+1642059163330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilea3nW1v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58132/devtools/browser/797306dd-3061-4ef7-8957-5ac1b8b39437
+1642059166717	Marionette	INFO	Listening on port 58141
+1642059166800	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is1642059412768	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53509" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilehP0iDO"
+1642059413708	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilehP0iDO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53509/devtools/browser/e25afa3f-18aa-4c8f-831d-e5b3aac3404c
+1642059416872	Marionette	INFO	Listening on port 53518
+1642059416940	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642063909255	Marionette	INFO	Stopped listening on port 53518
+1642063909318	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+6-3676f712eb35
+1642060751931	Marionette	INFO	Listening on port 49758
+1642060752419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is1642063909627	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56096" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileDZQEtO"
+1642063910729	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileDZQEtO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56096/devtools/browser/fe7180dd-29db-484a-a4bb-1843051b787e
+1642063914304	Marionette	INFO	Listening on port 49255
+1642063914373	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642063974276	Marionette	INFO	Stopped listening on port 49255
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642063974641	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642063974731	geckodriver	INFO	Listening on 127.0.0.1:62130
+1642063977768	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62131" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileR80XRN"
+1642063978331	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileR80XRN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62131/devtools/browser/9e1f2a22-cab3-44da-bc09-4c32dcda05fa
+1642063982001	Marionette	INFO	Listening on port 62142
+1642063982522	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642064021241	Marionette	INFO	Stopped listening on port 62141642064024227	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62305" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilePAPheB"
+1642064024861	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilePAPheB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62305/devtools/browser/5b8fed31-1bd2-4c4e-9897-6168a11651af
+1642064028191	Marionette	INFO	Listening on port 62315
+1642064028360	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642064087225	Marionette	INFO	Stopped listening on port 62315
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642064087445	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642064087856	geckodriver	INFO	Listening on 127.0.0.1:62489
+1642064090907	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62490" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileyK0w19"
+1642064091622	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileyK0w19\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62490/devtools/browser/41aa6410-44ce-4e61-875d-199f75e2b3fd
+1642064094634	Marionette	INFO	Listening on port 62499
+1642064095054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is not a function
+1642064176300	Marionette	INFO	Stopped listening on port 62499
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642064176789	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+LS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642064182132	Marionette	INFO	Stopped listening on port 65299
+1642064182336	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642064195059	geckodriver	INFO	Listening on 127.0.0.1:53381
+1642064198100	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53382" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileKg77dZ"
+1642064199125	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileKg77dZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53382/devtools/browser/770380b5-9aba-4086-a865-f3650b4885b0
+1642064202295	Marionette	INFO	Listening on port 53392
+1642064202345	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642064211108	Marionette	INFO	Stopped listening on port 53392
+1642064211270	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642064219259	geckodriver	INFO	Listening on 127.0.0.1:51504
+1642064222299	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51505" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileF7LPyH"
+1642064222978	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileF7LPyH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51505/devtools/browser/d62e545a-2ef9-44dc-ad62-88b4c768a72e
+1642064226202	Marionette	INFO	Listening on port 51514
+1642064226435	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642066041242	Marionette	INFO	Stopped listening on port 51514
+1642066041300	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+ng on port 50932
+1642064365435	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642066051389	Marionette	INFO	Stopped listening on port 50932
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642066051429	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+on
+[Parent 19176, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642066042412	Marionette	INFO	Stopped listening on port 60936
+1642066042461	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+ng on port 64019
+1642065100590	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642065164645	Marionette	INFO	Stopped listening on port 64019
+1642065165008	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642065165414	geckodriver	INFO	Listening on 127.0.0.1:56294
+1642065168461	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56295" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileoeYJY4"
+1642065169472	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileoeYJY4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56295/devtools/browser/3840eeed-41b8-49f6-a1b4-de8194a450e6
+1642065174033	Marionette	INFO	Listening on port 54605
+1642065174209	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642066043302	Marionette	INFO	Stopped listening on port 54605
+1642066043352	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+2-7011870f3fef
+1642065882117	Marionette	INFO	Listening on port 58437
+1642065882517	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+[Parent 16688, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+!!! error running onStopped callback: TypeError: callback is not a function
+1642066046843	Marionette	INFO	Stopped listening on port 58437
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642066047099	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642066057675	geckodriver	INFO	Listening on 127.0.0.1:64293
+1642066060710	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64294" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileF70swU"
+1642066061481	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileF70swU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64294/devtools/browser/4b16e28e-cb42-4750-b5ba-0a0cf2383618
+1642066064457	Marionette	INFO	Listening on port 64303
+1642066064838	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is not a function
+1642066248462	Marionette	INFO	Stopped listening on port 64303
+1642066248512	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilefvFcjz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64654/devtools/browser/52a20c95-5636-40db-8729-fbb59183b59f
+1642066249951	Marionette	INFO	Listening on port 64664
+1642066250029	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is1642066375838	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60271" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileJ5GZEK"
+1642066376307	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileJ5GZEK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60271/devtools/browser/4dd758e8-39cd-4231-8474-912900daf01b
+1642066379346	Marionette	INFO	Listening on port 60281
+1642066379463	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is1642066633362	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60775" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileZjPVPa"
+1642066633952	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileZjPVPa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60775/devtools/browser/e943d39a-a892-44b3-b946-51d4fd13b63d
+1642066636756	Marionette	INFO	Listening on port 60784
+1642066636986	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource:///modules/UrlbarUtils.jsm, line 757: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEffectiveTLDService.getKnownPublicSuffixFromHost]
+JavaScript error: resource:///modules/UrlbarUtils.jsm, line 757: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEffectiveTLDService.getKnownPublicSuffixFromHost]
+[Parent 36180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1642073828287	Marionette	INFO	Stopped listening on port 60784
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642073828394	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+uery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript error: https://g.csdnimg.cn/??lib/jquery/1.12.4/jquery.min.js,report/1.0.6/report.js, line 6: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://g.csdnimg.cn/??lib/jquery/1.12.4/jquery.min.js,report/1.0.6/report.js, line 6: NS_ERROR_NOT_INITIALIZED: 
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript warning: https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/components/js/pc_wap_common-fbcbe8567e.min.js, line 1: TypeError: t[(t.length - 1)] is undefined
+JavaScript error: https:/!!! error running onStopped callback: TypeError: callback is not a function
+1642069488889	Marionette	INFO	Stopped listening on port 64765
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642069488945	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+cv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610020,name=PLayerTransaction::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x610015,name=PLayerTransaction::Msg_ClearCachedResources) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] E!!! error running onStopped callback: TypeError: callback is not a function
+1642069480266	Marionette	INFO	Stopped listening on port 60933
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642069480462	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+wn) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xAA0026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x960003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360015,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile8dmlI2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50993/devtools/browser/77b7a435-054b-44e6-9aff-de98e16ec83f
+1642069487054	Marionette	INFO	Listening on port 51002
+1642069487368	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1642073817718	Marionette	INFO	Stopped listening on port 51002
+1642073817819	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+tors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript error: , line 0: TypeErrorJ: NetworkError when attempting to fetch resource.
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+avaScript error: , line 0: TypeError: NetworkError when attemptiHandler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+ng to fetch resource.
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1642069696465	Marionette	INFO	Stopped listening on port 54675
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642069696551	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x800console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile6NqWOK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64993/devtools/browser/dce4a851-8d72-4086-b043-329d5d2b05a8
+1642069699926	Marionette	INFO	Listening on port 65024
+1642069700205	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642069863571	Marionette	INFO	Stopped listening on port 65024
+1642069863940	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileuGFnM1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62816/devtools/browser/cd714e94-013b-40e9-b0fc-ca22b9ffe629
+1642069865313	Marionette	INFO	Listening on port 62826
+1642069865611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642072964926	Marionette	INFO	Stopped listening on port 62826
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642072964979	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642073767085	geckodriver	INFO	Listening on 127.0.0.1:57226
+1642073770140	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57227" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilerHssff"
+1642073771114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilerHssff\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57227/devtools/browser/5d46042c-980d-4b73-9807-ccd961fab2b1
+1642073774711	Marionette	INFO	Listening on port 57236
+1642073774883	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642073812793	Marionette	INFO	Stopped listening on port 57236
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642073813096	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642073821624	geckodriver	INFO	Listening on 127.0.0.1:51947
+1642073824657	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51948" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileFS6n4T"
+1642073825911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileFS6n4T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51948/devtools/browser/3c7da9fc-c8f8-4449-8494-b73c43a92122
+1642073830195	Marionette	INFO	Listening on port 57604
+1642073830392	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642073863639	Marionette	INFO	Stopped listening on port 57604
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642073863907	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642073864132	geckodriver	INFO	Listening on 127.0.0.1:52959
+1642073867161	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52960" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilezyIoOU"
+1642073867634	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilezyIoOU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52960/devtools/browser/d93e65d5-8cc4-447f-bb33-e5dea1e5cd8a
+1642073870747	Marionette	INFO	Listening on port 52970
+1642073870796	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is1642073914957	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53115" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile44TqI6"
+1642073915438	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile44TqI6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53115/devtools/browser/876b70f9-a8af-46f0-ae85-c724fb8e2a8f
+1642073918388	Marionette	INFO	Listening on port 53125
+1642073918590	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is1642073954561	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53254" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilegxvP35"
+1642073955045	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilegxvP35\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53254/devtools/browser/54a78c17-bf19-4fe3-8e0d-10c770dc1411
+1642073958089	Marionette	INFO	Listening on port 53264
+1642073958194	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642074023486	Marionette	INFO	Stopped listening on port 53264
+
+###!!! [Child][RunMessage] Error: Channel closing: too lat1642074026612	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53448" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileKcbNsd"
+1642074027092	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileKcbNsd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53448/devtools/browser/a917d35d-cfc9-4a18-a82b-9c0ae1b16fdf
+1642074030170	Marionette	INFO	Listening on port 53457
+1642074030238	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642074102182	Marionette	INFO	Stopped listening on port 53457
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642074102473	geckodriver	INFO	Listening on 127.0.0.1:64039
+1642074105495	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64040" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile2HQTBN"
+1642074105969	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile2HQTBN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64040/devtools/browser/81e5983e-4871-43a9-af84-24296f84eeab
+1642074109022	Marionette	INFO	Listening on port 64050
+1642074109143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642078544172	Marionette	INFO	Stopped listening on port 64050
+1642078544208	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+ng on port 51251
+1642074510013	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642074523694	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+!!! error running onStopped callback: TypeError: callback is not a function
+1642074558625	Marionette	INFO	Stopped listening on port 51251
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642074558807	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+LS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642074557442	Marionette	INFO	Stopped listening on port 57454
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642074557626	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642074563321	geckodriver	INFO	Listening on 127.0.0.1:55487
+1642074566345	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55488" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileXDy4mN"
+1642074566775	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileXDy4mN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55488/devtools/browser/ca0e6086-b2c9-414d-9a78-6934cb730448
+1642074569696	Marionette	INFO	Listening on port 55497
+1642074569970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642074582626	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+!!! error running onStopped callback: TypeError: callback is not a function
+1642074606057	Marionette	INFO	Stopped listening on port 55497
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642074606236	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642074610022	geckodriver	INFO	Listening on 127.0.0.1:55648
+1642074613043	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55649" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilebuVvtN"
+1642074613483	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilebuVvtN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55649/devtools/browser/7ddbaf99-033d-4026-badb-d889e92106f7
+1642074616285	Marionette	INFO	Listening on port 55658
+1642074616669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642074627882	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1642074638195	Marionette	INFO	Stopped listening on port 55658
+[Child 14576, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642074638727	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075206628	geckodriver	INFO	Listening on 127.0.0.1:61736
+1642075209680	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61737" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofiletvnDpf"
+1642075210659	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofiletvnDpf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61737/devtools/browser/4699d0c0-eaa5-49ee-83a4-d782ccf9f2c2
+1642075213697	Marionette	INFO	Listening on port 61747
+1642075213886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075235926	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1642075247701	Marionette	INFO	Stopped listening on port 61747
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075248247	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075248603	geckodriver	INFO	Listening on 127.0.0.1:61882
+1642075251626	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61883" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilesYkGt0"
+1642075252072	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilesYkGt0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61883/devtools/browser/c447943f-ba15-4380-99c9-8df7cdbdab2b
+1642075254659	Marionette	INFO	Listening on port 61893
+1642075254773	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075263861	Marionette	INFO	Stopped listening on port 61893
+[Child 14440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+!!! error running onStopped callback: TypeError: callback is not a function
+1642075264457	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075264772	geckodriver	INFO	Listening on 127.0.0.1:61989
+1642075267795	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61990" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileKvhIAb"
+1642075268246	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileKvhIAb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61990/devtools/browser/be9afee9-39d9-45a5-b88f-8f1eca020902
+1642075271079	Marionette	INFO	Listening on port 62000
+1642075271423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075282651	Marionette	INFO	Stopped listening on port 62000
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075283153	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075472938	geckodriver	INFO	Listening on 127.0.0.1:53239
+1642075475975	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53240" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileBmh9ZR"
+1642075476486	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileBmh9ZR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53240/devtools/browser/ea21790c-d7e7-4f2c-8792-efffcd2e6bd5
+1642075479372	Marionette	INFO	Listening on port 53249
+1642075479614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075499907	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1642075512499	Marionette	INFO	Stopped listening on port 53249
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075513007	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075513374	geckodriver	INFO	Listening on 127.0.0.1:53383
+1642075516403	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53384" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilePCAmZb"
+1642075516835	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilePCAmZb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53384/devtools/browser/9865549e-2b1f-486b-9dda-fc5f404ed84b
+1642075519933	Marionette	INFO	Listening on port 53393
+1642075520030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075529144	Marionette	INFO	Stopped listening on port 53393
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075529659	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075530012	geckodriver	INFO	Listening on 127.0.0.1:53491
+1642075533049	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53492" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileTyMH5Y"
+1642075533494	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileTyMH5Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53492/devtools/browser/3d577180-f2ae-40e9-9625-d4a814cf7031
+1642075536447	Marionette	INFO	Listening on port 53505
+1642075536678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075548427	Marionette	INFO	Stopped listening on port 53505
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075548929	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075582123	geckodriver	INFO	Listening on 127.0.0.1:53665
+1642075585154	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53666" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile1l7gT9"
+1642075585612	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile1l7gT9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53666/devtools/browser/b94fdeec-50db-4a02-9c2c-d758bc94edfa
+1642075588370	Marionette	INFO	Listening on port 53675
+1642075588786	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642075669070	Marionette	INFO	Stopped listening on port 53675
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075669335	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+LS certificate errors will be ignored for this session
+1642075617729	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+!!! error running onStopped callback: TypeError: callback is1642075646323	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53929" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilejLHOrl"
+1642075647202	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilejLHOrl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53929/devtools/browser/63ef1393-9a07-4875-84e6-bf83ed674640
+1642075650551	Marionette	INFO	Listening on port 53938
+1642075651054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075662106	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1642075672426	Marionette	INFO	Stopped listening on port 53938
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075672890	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075687053	geckodriver	INFO	Listening on 127.0.0.1:54085
+1642075690080	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54086" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile8MXgpE"
+1642075690542	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile8MXgpE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54086/devtools/browser/e7fa3572-5b43-4463-babb-d8d9fe710955
+1642075693562	Marionette	INFO	Listening on port 54095
+1642075693720	Marionette	WARN	TLS certificate errors will be ignored for this session
+1642075704876	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1642075714383	Marionette	INFO	Stopped listening on port 54095
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642075714944	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642075987030	geckodriver	INFO	Listening on 127.0.0.1:60609
+1642075990057	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60610" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile7sf5Ea"
+1642075990539	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile7sf5Ea\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60610/devtools/browser/d996ebf8-867f-4043-948d-e48f1ebdb441
+1642075993444	Marionette	INFO	Listening on port 60620
+1642075993694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077119569	Marionette	INFO	Stopped listening on port 60620
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642077119620	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+LS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 103: Error: Connection closed, pending request to server0.conn0.child4/domnode77, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilePULvVF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52843/devtools/browser/f8c273f6-2012-4661-b07d-9f420638939b
+1642076996306	Marionette	INFO	Listening on port 52854
+1642076996475	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077118280	Marionette	INFO	Stopped listening on port 52854
+1642077118309	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642077116532	geckodriver	INFO	Listening on 127.0.0.1:53897
+1642077119568	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53898" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileR8IAaL"
+1642077120108	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileR8IAaL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53898/devtools/browser/4f0badc9-8aa3-4d3d-a38b-7b06c1fa3cf5
+1642077123201	Marionette	INFO	Listening on port 53909
+1642077123696	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077138047	Marionette	INFO	Stopped listening on port 53909
+1642077138225	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642077142798	geckodriver	INFO	Listening on 127.0.0.1:55889
+1642077145827	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55890" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilepHBAKO"
+1642077146270	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilepHBAKO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55890/devtools/browser/947403d8-5a34-4729-9043-04293678eb63
+1642077149196	Marionette	INFO	Listening on port 55900
+1642077149451	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077219735	Marionette	INFO	Stopped listening on port 55900
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642077220087	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642077220198	geckodriver	INFO	Listening on 127.0.0.1:56094
+1642077223245	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56095" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileSI0qSp"
+1642077223744	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileSI0qSp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56095/devtools/browser/8045b578-7d59-4d2a-9152-152962437518
+1642077226594	Marionette	INFO	Listening on port 56106
+1642077226875	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap without a browsingContextID set
+!!! error running onStopped callback: TypeError: callback is1642077345280	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62556" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilezwNhII"
+1642077345763	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilezwNhII\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62556/devtools/browser/b938da0b-01fe-42fa-9f3c-d233159363a4
+1642077348744	Marionette	INFO	Listening on port 62565
+1642077348905	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077377320	Marionette	INFO	Stopped listening on port 62565
+1642077377462	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642077393066	geckodriver	INFO	Listening on 127.0.0.1:53637
+1642077396102	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53638" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilemqZqPQ"
+1642077396551	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilemqZqPQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53638/devtools/browser/c5b4a405-18f5-4d5b-b9e9-6e87548ba89f
+1642077399331	Marionette	INFO	Listening on port 53647
+1642077399730	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077442345	Marionette	INFO	Stopped listening on port 53647
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642077442497	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642077444933	geckodriver	INFO	Listening on 127.0.0.1:53800
+1642077447967	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53801" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileLpAl6P"
+1642077448423	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileLpAl6P\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53801/devtools/browser/37ed264f-a316-4c99-acd1-64e896ee725d
+1642077451319	Marionette	INFO	Listening on port 53810
+1642077451599	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077519590	Marionette	INFO	Stopped listening on port 53810
+1642077519837	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642077520043	geckodriver	INFO	Listening on 127.0.0.1:54001
+1642077523074	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54002" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilerKpdMG"
+1642077523533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilerKpdMG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54002/devtools/browser/4a31db8d-36e0-49f3-b0d5-4c8350df6395
+1642077526540	Marionette	INFO	Listening on port 54012
+1642077526710	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is1642077645285	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54273" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilebpQM1q"
+1642077645744	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilebpQM1q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54273/devtools/browser/1d6b423e-792e-4fe4-a014-7189ec561331
+1642077648680	Marionette	INFO	Listening on port 54283
+1642077648906	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is1642077691439	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58331" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileLvBqQ4"
+1642077691948	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileLvBqQ4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58331/devtools/browser/a21c53df-9736-49f6-9f88-daad61e3fd78
+1642077695056	Marionette	INFO	Listening on port 58340
+1642077695568	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642077752827	Marionette	INFO	Stopped listening on port 58340
+
+###!!! [Child][RunMessage] Error: Channel closing: too lat1642077756011	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58545" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileI7An0V"
+1642077756476	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileI7An0V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58545/devtools/browser/19d9ae45-1b47-4403-911e-de6f8b6af4cf
+1642077759345	Marionette	INFO	Listening on port 58555
+1642077759644	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cnblogs.com/linkxu1989/p/6640526.html, line 439: ReferenceError: responsiveNav is not defined
+JavaScript error: https://common.cnblogs.com/scripts/jquery-2.2.0.min.js line 2 > eval, line 1: TypeError: window.__document_write_ajax_callbacks__[5] is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is1642077999314	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53289" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilet3Sf2e"
+1642078000079	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilet3Sf2e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53289/devtools/browser/e0c425bf-95d8-4c8b-8980-4371968cd20c
+1642078002776	Marionette	INFO	Listening on port 53300
+1642078002939	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is1642078053957	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61529" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileatfp72"
+1642078054396	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileatfp72\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61529/devtools/browser/3c0849a1-5dd7-417a-a04c-9d8ef537f08f
+1642078057191	Marionette	INFO	Listening on port 61538
+1642078057582	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642078094537	Marionette	INFO	Stopped listening on port 61538
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642078094752	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642078094838	geckodriver	INFO	Listening on 127.0.0.1:54101
+1642078097867	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54102" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile9NzXhL"
+1642078098311	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofile9NzXhL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54102/devtools/browser/03404974-8fdf-49c6-b0bc-430e11a7e122
+1642078101440	Marionette	INFO	Listening on port 54111
+1642078101499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://g.csdnimg.cn/side-toolbar/3.0/side-toolbar.js, line 1: TypeError: c.contentEl is null
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: null
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/normandy-recipes-capabilities getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1642078542807	Marionette	INFO	Stopped listening on port 54111
+1642078542841	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+ed WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileRmdAZs\sessionCheckpoints.json.tmp for writing
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileRmdAZs\sessionCheckpoints.json.tmp for writing
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileRmdAZs\sessionCheckpoints.json.tmp for writing
+ConvertWinError received an unrecognized WinError: 0x70
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileRmdAZs\sessionCheckpoints.json.tmp for writing
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileRmdAZs\sessionCheckpoints.json.tmp for writing
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: (none)
+WARNING: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileRmdAZs\sessionCheckpoints.json.tmp for writing
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileRmdAZs\sessionCheckpoints.json.tmp for writing
+1642078542068	Marionette	INFO	Stopped listening on port 49876
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642078542093	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+inError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/UnifiedComplete.jsm, line 756: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/UnifiedComplete.jsm, line 756: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+[GFX1-]: shader-cache: Failed to create file: 磁盘空间不足。 (os error 112)
+[2022-01-13T12:55:12Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: 磁盘空间不足。 (os error 112)
+[GFX1-]: shader-cache: Failed to create file: 磁盘空间不足。 (os error 112)
+[2022-01-13T12:55:12Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: 磁盘空间不足。 (os error 112)
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/UnifiedComplete.jsm, line 756: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/UnifiedComplete.jsm, line 756: TypeError: conn is undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 450: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1110: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\content-prefs.sqlite: 2152857621
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: , line 0: uncaught exception: Object
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+[GFX1-]: shader-cache: Failed to write startup whitelist: 磁盘空间不足。 (os error 112)
+[2022-01-13T12:55:35Z ERROR webrender_bindings::program_cache] shader-cache: Failed to write startup whitelist: 磁盘空间不足。 (os error 112)
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\sessionCheckpoints.json.tmp for writing
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\sessionCheckpoints.json.tmp for writing
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\sessionCheckpoints.json.tmp for writing
+ConvertWinError received an unrecognized WinError: 0x70
+!!! error running onStopped callback: TypeError: callback is not a function
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: , line 0: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\sessionCheckpoints.json.tmp for writing
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\sessionCheckpoints.json.tmp for writing
+ConvertWinError received an unrecognized WinError: 0x70
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  CrashMonitor: Writing notifications to file after receiving profile-before-change
+          Phase: IOUtils: waiting for profileBeforeChange IO to complete
+          State: (none)
+WARNING: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\sessionCheckpoints.json.tmp for writing
+WARNING: observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: UnknownError: Could not open the file at C:\Users\daisy\AppData\Local\Temp\rust_mozprofileZc8jNW\sessionCheckpoints.json.tmp for writing
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: Object
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+1642078538861	Marionette	INFO	Stopped listening on port 61852
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642078538890	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642078549084	geckodriver	INFO	Listening on 127.0.0.1:54076
+1642078552115	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54077" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileqCFAoX"
+1642078552897	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileqCFAoX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54077/devtools/browser/c6065ef2-2793-4c95-8bb3-7c601a08404a
+1642078555761	Marionette	INFO	Listening on port 54087
+1642078556241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+!!! error running onStopped callback: TypeError: callback is1642078631318	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54284" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileOH7o9E"
+1642078631896	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofileOH7o9E\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54284/devtools/browser/7b157656-14eb-4ca0-8cf2-fd1de9b5b062
+1642078634836	Marionette	INFO	Listening on port 54294
+1642078634948	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642079026191	Marionette	INFO	Stopped listening on port 54294
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642079026225	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+nette	INFO	Listening on port 64556
+1642079003641	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642079021577	Marionette	INFO	Stopped listening on port 64556
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642079021647	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+LS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1642079022768	Marionette	INFO	Stopped listening on port 57313
+1642079023016	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642079064069	geckodriver	INFO	Listening on 127.0.0.1:64621
+1642079067095	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64622" "-no-remote" "-profile" "C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilekD4RbM"
+1642079067810	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\daisy\\AppData\\Local\\Temp\\rust_mozprofilekD4RbM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64622/devtools/browser/4b7c535a-7254-43c1-b2b2-4e74657df077
+1642079070633	Marionette	INFO	Listening on port 64631
+1642079070723	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: null
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: main/normandy-recipes-capabilities importChanges() IndexedDB:  importChanges() in main/normandy-recipes-capabilities The current transaction exceeded its quota limitations.
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: InvalidStateError: IndexedDB: main/password-recipes importChanges() IndexedDB: collections, timestamps, records importChanges() in main/password-recipes A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    importChanges/<@resource://services-settings/Database.jsm:116:27
+executeIDB/promise<@resource://services-settings/IDBHelpers.jsm:134:16
+executeIDB@resource://services-settings/IDBHelpers.jsm:98:17
+executeIDB@resource://services-settings/Database.jsm:366:45
+
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: main/sites-classification importChanges() IndexedDB:  importChanges() in main/sites-classification The current transaction exceeded its quota limitations.
+console.error: services.settings: 
+  Message: InvalidStateError: IndexedDB: main/anti-tracking-url-decoration importChanges() IndexedDB: collections, timestamps, records importChanges() in main/anti-tracking-url-decoration A mutation !!! error running onStopped callback: TypeError: callback is not a function
+1642079475081	Marionette	INFO	Stopped listening on port 64933
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642079475341	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+ings: 
+  Message: InvalidStateError: IndexedDB: main/public-suffix-list importChanges() IndexedDB: collections, timestamps, records importChanges() in main/public-suffix-list A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    importChanges/<@resource://services-settings/Database.jsm:116:27
+executeIDB/promise<@resource://services-settings/IDBHelpers.jsm:134:16
+executeIDB@resource://services-settings/IDBHelpers.jsm:98:17
+executeIDB@resource://services-settings/Database.jsm:366:45
+
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: main/search-config importChanges() IndexedDB:  importChanges() in main/search-config The current transaction exceeded its quota limitations.
+console.error: services.settings: 
+  Message: InvalidStateError: IndexedDB: main/hijack-blocklists importChanges() IndexedDB: collections, timestamps, records importChanges() in main/hijack-blocklists A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    importChanges/<@resource://services-settings/Database.jsm:116:27
+executeIDB/promise<@resource://services-settings/IDBHelpers.jsm:134:16
+executeIDB@resource://services-settings/IDBHelpers.jsm:98:17
+executeIDB@resource://services-settings/Database.jsm:366:45
+
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: main/pioneer-study-addons-v1 importChanges() IndexedDB:  importChanges() in main/pioneer-study-addons-v1 The current transaction exceeded its quota limitations.
+console.error: services.settings: 
+  Message: InvalidStateError: IndexedDB: main/fxmonitor-breaches importChanges() IndexedDB: collections, timestamps, records importChanges() in main/fxmonitor-breaches A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    importChanges/<@resource://services-settings/Database.jsm:116:27
+executeIDB/promise<@resource://services-settings/IDBHelpers.jsm:134:16
+executeIDB@resource://services-settings/IDBHelpers.jsm:98:17
+executeIDB@resource://services-settings/Database.jsm:366:45
+
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: QuotaExceededError: IndexedDB: main/top-sites importChanges() IndexedDB:  importChanges() in main/top-sites The current transaction exceeded its quota limitations.
+console.error: services.settings: 
+  Message: InvalidStateError: IndexedDB: security-state/cert-revocations importChanges() IndexedDB: collections, timestamps, records importChanges() in security-state/cert-revocations A mutation operation was attempted on a database that did not allow mutations.
+  Stack:
+    importChanges/<@resource://services-settings/Database.jsm:116:27
+executeIDB/promise<@resource://services-settings/IDBHelpers.jsm:134:16
+executeIDB@resource://services-settings/IDBHelpers.jsm:98:17
+executeIDB@resource://services-settings/Database.jsm:366:45
+
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: security-state/intermediates importChanges() IndexedDB:  importChanges() in security-state/intermediates A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: security-state/onecrl getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+!!! error running onStopped callback: TypeError: callback is not a function
+1642079477630	Marionette	INFO	Stopped listening on port 64631
+1642079477909	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+sIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+
+JavaScript error: https://relxnow.com/, line 2363: TypeError: $yt is null
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+!!! error running onStopped callback: TypeError: callback is not a function
+1642079438107	Marionette	INFO	Stopped listening on port 50917
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642079438305	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+avBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1954: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+1642079345556	Marionette	INFO	Listening on port 54814
+1642079345612	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://relxnow.com/, line 2363: TypeError: $yt is null
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1363: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 893: Error: Error(s) encountered during statement execution: database or disk is full
+ConvertWinError received an unrecognized WinError: 0x70
+ConvertWinError received an unrecognized WinError: 0x70
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+!!! error running onStopped callback: TypeError: callback is not a function
+1642079395958	Marionette	INFO	Stopped listening on port 54814
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642079396187	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1642079422197	geckodriver	INFO	Listening on 127.0.0.1:60430
+1642079435876	geckodriver	INFO	Listening on 127.0.0.1:60461
+1642079457899	geckodriver	INFO	Listening on 127.0.0.1:55961

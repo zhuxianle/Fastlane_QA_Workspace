@@ -3,24 +3,21 @@ Library           Selenium2Library
 Library           AutoItLibrary
 
 *** Variables ***
-${Tokit_Recipes_NA_URL}    https://na.cooknjoy.tokitglobal.com/
-${Tokit_Recipes_EU_URL}    https://eu.cooknjoy.tokitglobal.com/
-${Browser_Type}    Firefox
 
 *** Keywords ***
 校验是否为测试环境
-    [Arguments]    ${Site_URL}    ${Test_Environment_Password}
-    Open Browser    ${Site_URL}
-    ${Password}=    Run Keyword And Return Status    Page Should Contain Element    id=password    10
-    Run Keyword If    "${Password}"=="True"    log    当前站点为测试环境，需要输入密码
+    [Arguments]    ${site_url}    ${test_environment_password}
+    Open Browser    {site_url}
+    ${password}=    Run Keyword And Return Status    Page Should Contain Element    id=password    10
+    Run Keyword If    "${password}"=="True"    log    当前站点为测试环境，需要输入密码
     ...    ELSE    LOG    当前站点非测试环境，不需要输入密码
-    Input Password    id=password    ${Test_Environment_Password}
+    Input Password    id=password    ${test_environment_password}
     Click Button    xpath=//div[@class="content--block"]/form/button
 
 点击个人中心的Icon
     Sleep    2
-    ${personal_Center_Icon}    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//div[@id="UserInfo"]/a/span    10    #等待个人中心的图标可见
-    Run Keyword And Return If    '${Personal_Center_Icon}'=='PASS'    AutoItLibrary.Mouse Down    xpath=//div[@id="UserInfo"]/a/span
+    ${personal_center_icon}    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//div[@id="UserInfo"]/a/span    10    #等待个人中心的图标可见
+    Run Keyword And Return If    '${personal_center_icon}'=='PASS'    AutoItLibrary.Mouse Down    xpath=//div[@id="UserInfo"]/a/span
     ...    ELSE    fail    找不到个人中心的图标    #等待个人中心的图标可见，悬浮至个人中心的图标上
     Click Element    xpath=//div[@id="UserInfo"]/a/span    #点击个人中心的图标
 
@@ -34,9 +31,9 @@ ${Browser_Type}    Firefox
     END
     Mouse Over    xpath=//div[@id="UserInfo"]/a/span
     Mouse Over    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
-    ${my_Collection}=    Get Text    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
-    ${my_Collection1}=    Set Variable    My Collection    #设置临时变量
-    Run Keyword If    '${my_Collection}'=="${my_Collection1}"    Mouse Over    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
+    ${my_collection}=    Get Text    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
+    ${my_collection1}=    Set Variable    My Collection    #设置临时变量
+    Run Keyword If    '${my_collection}'=="${my_collection1}"    Mouse Over    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span
     Click Element    xpath=//div[@id="shopify-section-header"]/header//div[2]/a[2]/span    #点击二级导航栏的"account"链接进行跳转
     Sleep    2
 
@@ -53,17 +50,17 @@ ${Browser_Type}    Firefox
     Click Element    id=CartInfo
 
 跳转至注册页面
-    ${Create_Account}=    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//section[@class="container py-8"]/div/div[3]/a[1]    15
-    Run Keyword If    '${Create_Account}'=='True'    Click Element    xpath=//section[@class="container py-8"]/div/div[3]/a[1]
+    ${create_account}=    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//section[@class="container py-8"]/div/div[3]/a[1]    15
+    Run Keyword If    '${create_account}'=='True'    Click Element    xpath=//section[@class="container py-8"]/div/div[3]/a[1]
     ...    ELSE    FAIL    页面找不到"Create Account"的跳转地址
 
 用户进行登录
-    [Arguments]    ${userLogin_Name}    ${userLogin_Password}
+    [Arguments]    ${userlogin_name}    ${userlogin_password}
     Wait Until Element Is Visible    xpath=//section[@class="container py-8"]/div/h2    10    #等待用户登录页面的标题可见
-    Input Text    xpath=//input[@id="floatingInput"]    ${userLogin_Name}    #用户登录页面输入正确的用户邮箱
-    Set Global Variable    ${userLogin_Name}
-    Input Text    xpath=//input[@id="floatingPassword"]    ${userLogin_Password}    #用户登录页面输入正确的的密码
-    Set Global Variable    ${userLogin_Password}
+    Input Text    xpath=//input[@id="floatingInput"]    ${userlogin_name}    #用户登录页面输入正确的用户邮箱
+    Set Global Variable    ${userlogin_name}
+    Input Text    xpath=//input[@id="floatingPassword"]    ${userlogin_password}    #用户登录页面输入正确的的密码
+    Set Global Variable    ${userlogin_password}
     Click Button    xpath=//form[@class="as-login-form mt-4"]/button    #点击登录按钮
 
 关闭浏览器
@@ -86,6 +83,6 @@ ${Browser_Type}    Firefox
     Click Element    xpath=//div[@id="collapseExample"]/div/ul/li[${num}]/a/span
 
 跳转至重置密码页面
-    ${Forget_Password}=    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//section[@class="container py-8"]/div/div[3]/a[2]    15
-    Run Keyword If    '${Forget_Password}'=='True'    Click Element    xpath=//section[@class="container py-8"]/div/div[3]/a[2]
+    ${forget_password}=    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//section[@class="container py-8"]/div/div[3]/a[2]    15
+    Run Keyword If    '${forget_password}'=='True'    Click Element    xpath=//section[@class="container py-8"]/div/div[3]/a[2]
     ...    ELSE    FAIL    页面找不到"Forgot Password"的跳转地址

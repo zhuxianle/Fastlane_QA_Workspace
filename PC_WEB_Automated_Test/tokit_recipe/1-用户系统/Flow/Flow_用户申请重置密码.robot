@@ -4,7 +4,7 @@ Library           Selenium2Library
 *** Keywords ***
 输入已注册邮箱进行重置密码
     Wait Until Element Is Visible    id=email    10
-    Input Text    id=email    ${Register_Account_Suffixt}
+    Input Text    id=email    ${register_account_suffixt}
 
 重置密码页面点击Reset按钮
     click button    xpath=//form[@class="as-forgot-pwd-form mt-4"]/button    #点击ReSet按钮

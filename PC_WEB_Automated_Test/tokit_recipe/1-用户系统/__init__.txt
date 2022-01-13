@@ -1,0 +1,2 @@
+*** Settings ***
+Force Tags        tokit_recipe_automated
