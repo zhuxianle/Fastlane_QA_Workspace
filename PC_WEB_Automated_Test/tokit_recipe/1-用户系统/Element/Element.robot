@@ -86,3 +86,6 @@ Library           AutoItLibrary
     ${forget_password}=    Run Keyword And Return Status    Wait Until Element Is Visible    xpath=//section[@class="container py-8"]/div/div[3]/a[2]    15
     Run Keyword If    '${forget_password}'=='True'    Click Element    xpath=//section[@class="container py-8"]/div/div[3]/a[2]
     ...    ELSE    FAIL    页面找不到"Forgot Password"的跳转地址
+
+关闭浏览器2
+    Close Browser

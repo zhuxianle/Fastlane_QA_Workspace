@@ -31,3 +31,6 @@ Library           Selenium2Library
 
 点击筛选项的搜索按钮
     Click Button    xpath=//div[@class="modal-footer border-0 d-flex justify-content-center pb-5"]/button[1]
+
+关闭浏览器
+    Close Browser
