@@ -3,14 +3,14 @@ Library           Selenium2Library
 
 *** Test Cases ***
 输入正确账号密码，登陆成功
-    open browser    https://us.tokitglobal.com/    gc    #打开浏览器，进入纯米商城US站
-    Click Element    xpath=//*[@id="shopify-section-header"]/header/nav/div/ul[2]/li[1]    \    #点击个人中心icon
+    open browser    https://us.tokitglobal.com/    ff    #打开浏览器，进入纯米商城US站
+    Click Element    xpath=//*[@id="shopify-section-header"]/header/nav/div/ul[2]/li[1]    #点击个人中心icon
     Wait Until Element Is Visible    xpath=//*[@id="floatingInput"]    5    #等待元素出现，进行下一步操作
     Input text    xpath=//*[@id="floatingInput"]    kevin@fstln.io    #点击邮箱输入框，输入正确账号
     Wait Until Element Is Visible    xpath=//*[@id="floatingPassword"]    5    #等待元素出现，进行下一步操作
     Input text    xpath=//*[@id="floatingPassword"]    Xzk991231    #点击密码输入框，输入正确密码
     sleep    1    \    #等待1秒
-    Click element    xpath=/html/body/main/section/section/div/form/button    \    #点击Login登陆
+    Click element    xpath=/html/body/main/section/section/div/form/button    #点击Login登陆
     sleep    3    \    #等待3秒
     Close browser    #退出浏览器...
 
