@@ -64,4 +64,4 @@ Library           Selenium2Library
     sleep    1    #等待1秒
     Click element    xpath=/html/body/main/section/section/div/form/button    #点击Login登陆
     sleep    3    #等待3秒
-    Close browser    #退出浏览器
+    Close browser    #退出浏览器.
