@@ -12,7 +12,7 @@ Library           Selenium2Library
     sleep    1    \    #等待1秒
     Click element    xpath=/html/body/main/section/section/div/form/button    \    #点击Login登陆
     sleep    3    \    #等待3秒
-    Close browser    #退出浏览器
+    Close browser    #退出浏览器.
 
 输入正确账号错误密码，登陆失败
     open browser    https://us.tokitglobal.com/    gc    #打开浏览器，进入纯米商城US站
